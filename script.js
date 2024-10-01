@@ -1,6 +1,6 @@
-const APILINK = ${{ secrets.API_Link }};
+const APILINK = "${{ secrets.API_Link }}";
 const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
-const SEARCHAPI = ${{ secrets.API_SEARCH }};
+const SEARCHAPI = "${{ secrets.API_SEARCH }}";
 
 const main = document.getElementById("section");
 const form = document.getElementById("form");
